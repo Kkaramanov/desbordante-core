@@ -164,4 +164,11 @@ constexpr auto kCindCondValues = "cind_condition_values";
 constexpr auto kSdG1 = "g1";
 constexpr auto kSdG2 = "g2";
 constexpr auto kSdIndices = "indices";
+// PHM
+constexpr auto kPhmDataset = "phm_dataset";
+constexpr auto kPhmMinUtility = "phm_min_utility";
+constexpr auto kPhmMinAveragePeriodicity = "phm_min_average_periodicity";
+constexpr auto kPhmMaxAveragePeriodicity = "phm_max_average_periodicity";
+constexpr auto kPhmMaxPeriodicity = "phm_max_periodicity";
+constexpr auto kPhmMinPeriodicity = "phm_min_periodicity";
 }  // namespace config::names

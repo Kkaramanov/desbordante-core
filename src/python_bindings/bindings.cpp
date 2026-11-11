@@ -39,6 +39,7 @@
 #include "python_bindings/pac/bind_pac.h"
 #include "python_bindings/pac/bind_pac_verification.h"
 #include "python_bindings/pfd/bind_pfd_verification.h"
+#include "python_bindings/phm/bind_phm.h"
 #include "python_bindings/py_util/logging.h"
 #include "python_bindings/py_util/py_custom_metrics.h"
 #include "python_bindings/sd/bind_sd_verification.h"
@@ -92,6 +93,7 @@ PYBIND11_MODULE(desbordante, module, pybind11::mod_gil_not_used()) {
                            BindDDVerification,
                            BindAODVerification,
                            BindAfdMetricCalculation,
+                           BindPhm,
                            BindPAC,
                            BindPACVerification}) {
         bind_func(module);

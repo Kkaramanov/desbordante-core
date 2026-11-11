@@ -241,4 +241,11 @@ constexpr auto kDCindCondValues =
 constexpr auto kDSdG1 = "Lower bound of the sequential interval (inclusive).";
 constexpr auto kDSdG2 = "Upper bound of the sequential interval (inclusive). Set -1 for Infinity.";
 constexpr auto kDSdIndices = "Subset of row indices to validate the SD on.";
+// PHM
+constexpr auto kDPhmDataset = "Path to file whith transactions";
+constexpr auto kDPhmMinUtility = "minimum utility threshold value";
+constexpr auto kDPhmMinPeriodicity = "minimum periodicity threshold value";
+constexpr auto kDPhmMaxPeriodicity = "maximum periodicity threshold value";
+constexpr auto kDPhmMinAveragePeriodicity = "minimum average periodicity threshold value";
+constexpr auto kDPhmMaxAveragePeriodicity = "maximum average periodicity threshold value";
 }  // namespace config::descriptions

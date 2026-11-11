@@ -296,6 +296,10 @@ desbordante_add_bind(
 )
 
 desbordante_add_bind(
+    phm SRCS phm/bind_phm.cpp LIBS ${DESBORDANTE_PREFIX}::pp::phm Boost::headers
+)
+
+desbordante_add_bind(
     pfd SRCS pfd/bind_pfd_verification.cpp LIBS ${DESBORDANTE_PREFIX}::fd::pfd_verifier
     Boost::headers
 )
